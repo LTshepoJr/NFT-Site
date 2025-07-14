@@ -1,0 +1,12 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: var(--light-black);
+}
+:root {
+  --light-black: #2b283a;
+  --fw1: 400;
+  --fw2: 500;
+}
