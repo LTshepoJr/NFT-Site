@@ -30,3 +30,11 @@ h3 {
   font-size: var(--h3-20px);
   color: var(--light-white-purple);
 }
+
+section {
+  padding: 45px 0;
+}
+
+.sneakers {
+  width: 100%;
+}
