@@ -2,11 +2,31 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
   color: var(--light-black);
 }
+
 :root {
   --light-black: #2b283a;
+  --light-white-purple: #d0aaff;
+  --purple: #5f29a3;
+  --whitesmoke: whitesmoke;
+  --h1-36px: 2.25rem;
+  --h3-20px: 1.25rem;
   --fw1: 400;
   --fw2: 500;
+}
+
+header {
+  background-color: var(--purple);
+  padding: 45px 0;
+}
+
+h1 {
+  font-size: var(--h1-36px);
+  color: whitesmoke;
+}
+
+h3 {
+  font-size: var(--h3-20px);
+  color: var(--light-white-purple);
 }
