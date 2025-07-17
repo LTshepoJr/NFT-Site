@@ -12,6 +12,8 @@ body {
   --link-color: #ef5839;
   --link-color-hover: #d4b44c;
   --content-width: 620px;
+  --image-width: 300px;
+  --img-radius: 4.6px;
   --h1-36px: 2.25rem;
   --h2-24px: 1.5rem;
   --h3-20px: 1.25rem;
@@ -68,10 +70,22 @@ section {
   margin: 0 auto;
 }
 
+footer {
+  text-align: center;
+}
+
+/* Images */
+
 .sneakers {
   width: 100%;
 }
 
-footer {
-  text-align: center;
+#flex-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+#flex-images > img {
+  border-radius: var(--img-radius);
+  width: var(--image-width);
 }
