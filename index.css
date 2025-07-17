@@ -19,10 +19,7 @@ body {
   --fw2: 500;
 }
 
-header {
-  background-color: var(--purple);
-  padding: 45px 0;
-}
+/* Typography */
 
 h1 {
   font-size: var(--h1-36px);
@@ -38,13 +35,7 @@ h3 {
   color: var(--light-white-purple);
 }
 
-section {
-  padding: 45px 0;
-}
-
-.sneakers {
-  width: 100%;
-}
+/* Links */
 
 a {
   color: var(--link-color);
@@ -56,7 +47,22 @@ a:active {
   color: var(--link-color-hover);
 }
 
+/* Layout */
+
+header {
+  background-color: var(--purple);
+  padding: 45px 0;
+}
+
+section {
+  padding: 45px 0;
+}
+
 .container {
   width: var(--content-width);
   margin: 0 auto;
+}
+
+.sneakers {
+  width: 100%;
 }
