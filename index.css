@@ -9,7 +9,8 @@ body {
   --light-black: #2b283a;
   --light-white-purple: #d0aaff;
   --purple: #5f29a3;
-  --whitesmoke: whitesmoke;
+  --link-color: #ef5839;
+  --link-color-hover: #d4b44c;
   --h1-36px: 2.25rem;
   --h2-24px: 1.5rem;
   --h3-20px: 1.25rem;
@@ -42,4 +43,14 @@ section {
 
 .sneakers {
   width: 100%;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: underline dotted;
+}
+
+a:hover,
+a:active {
+  color: var(--link-color-hover);
 }
