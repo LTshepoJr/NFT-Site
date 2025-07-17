@@ -58,6 +58,11 @@ section {
   padding: 45px 0;
 }
 
+#section-2 {
+  background-color: var(--purple);
+  color: whitesmoke;
+}
+
 .container {
   width: var(--content-width);
   margin: 0 auto;
@@ -65,4 +70,8 @@ section {
 
 .sneakers {
   width: 100%;
+}
+
+footer {
+  text-align: center;
 }
