@@ -22,11 +22,33 @@ body {
   --fw2: 500;
 }
 
+/* Grouping */
+
+h1,
+#section-2 {
+  color: whitesmoke;
+}
+
+h1,
+h3 {
+  margin: 0;
+}
+
+header,
+#section-2 {
+  background-color: var(--purple);
+}
+
+header,
+section,
+footer {
+  padding: var(--top-bottom-pad) 0;
+}
+
 /* Typography */
 
 h1 {
   font-size: var(--h1-36px);
-  color: whitesmoke;
 }
 
 h2 {
@@ -52,20 +74,6 @@ a:active {
 
 /* Layout */
 
-header {
-  background-color: var(--purple);
-  padding: var(--top-bottom-pad) 0;
-}
-
-section {
-  padding: var(--top-bottom-pad) 0;
-}
-
-#section-2 {
-  background-color: var(--purple);
-  color: whitesmoke;
-}
-
 .container {
   width: var(--content-width);
   margin: 0 auto;
@@ -74,7 +82,6 @@ section {
 footer {
   text-align: center;
   color: var(--purple);
-  padding: var(--top-bottom-pad) 0;
 }
 
 /* Images */
