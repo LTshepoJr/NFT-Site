@@ -10,16 +10,19 @@ body {
   --light-white-purple: #d0aaff;
   --purple: #5f29a3;
   --link-color: #ef5839;
-  --link-color-hover: #d4b44c;
+  --hover-link-color: #d4b44c;
+  --btn-bg-grey: #f0e0ff;
+  --hover-btn-bg: #f3e885;
   --content-width: 620px;
   --image-width: 300px;
-  --img-radius: 4.6px;
+  --grl-radius: 4.6px;
   --top-bottom-pad: 45px;
   --h1-36px: 2.25rem;
   --h2-24px: 1.5rem;
   --h3-20px: 1.25rem;
   --fw1: 400;
   --fw2: 500;
+  --btn-padding: 10px 19px;
 }
 
 /* Grouping */
@@ -60,6 +63,10 @@ h3 {
   color: var(--light-white-purple);
 }
 
+p {
+  line-height: 23px;
+}
+
 /* Links */
 
 a {
@@ -69,7 +76,35 @@ a {
 
 a:hover,
 a:active {
-  color: var(--link-color-hover);
+  color: var(--hover-link-color);
+}
+
+.button {
+  padding: var(--btn-padding);
+  border-radius: var(--grl-radius);
+  font-weight: var(--fw2);
+  text-decoration: none;
+  background-color: white;
+  transition: all 0.2s ease-in;
+}
+
+.button:hover,
+.button:active {
+  color: var(--light-black);
+  background-color: var(--hover-btn-bg);
+}
+
+.prp-btn {
+  color: var(--purple);
+}
+
+.nft-btn {
+  background-color: var(--purple);
+  color: whitesmoke;
+}
+
+.info-btn {
+  background-color: var(--btn-bg-grey);
 }
 
 /* Layout */
@@ -96,6 +131,6 @@ footer {
 }
 
 #flex-images > img {
-  border-radius: var(--img-radius);
+  border-radius: var(--grl-radius);
   width: var(--image-width);
 }
