@@ -86,6 +86,7 @@ a:active {
   text-decoration: none;
   background-color: white;
   transition: all 0.2s ease-in;
+  display: inline-block;
 }
 
 .button:hover,
